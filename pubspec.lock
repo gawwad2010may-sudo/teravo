@@ -1177,7 +1177,7 @@ packages:
     description:
       path: "."
       ref: main
-      resolved-ref: aa27517b8d26d61e71f93842934cf5aa94039fb1
+      resolved-ref: ca8d54e6eac10dc392eceecb651bb0063e43edc4
       url: "https://github.com/famedly/matrix-dart-sdk.git"
     source: git
     version: "9.0.0"
@@ -1501,14 +1501,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.3.1"
-  receive_sharing_intent:
-    dependency: "direct main"
-    description:
-      name: receive_sharing_intent
-      sha256: "72f229a38f2910029c11d840770c173b27072e348ef3376130b37514bc4556f6"
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "1.9.0"
   record:
     dependency: "direct main"
     description:
@@ -1838,10 +1830,10 @@ packages:
     dependency: transitive
     description:
       name: sqlite3
-      sha256: c73fd75df1332d76a6257f4823ae4df9c791f522b97e4a60cbcad214de1becf4
+      sha256: "64b2c63c8232dd20d14b34105a81ebfd74320442e8451f836179ec89986aa478"
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "3.5.0"
+    version: "3.5.1"
   stack_trace:
     dependency: transitive
     description:
