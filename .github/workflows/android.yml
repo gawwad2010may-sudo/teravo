@@ -16,9 +16,12 @@ jobs:
 
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: "3.35.2"
+          channel: stable
 
       - uses: android-actions/setup-android@v3
+
+      - name: Accept licenses
+        run: yes | sdkmanager --licenses
 
       - run: flutter pub get
 
